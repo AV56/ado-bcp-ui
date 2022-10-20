@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*.ts", "src/app/components/constants/login.constant,ts"],
+  "compilerOptions": {
+    "types": ["jest", "node"]
+  }
+}
